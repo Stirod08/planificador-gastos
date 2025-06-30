@@ -1,3 +1,5 @@
+import BudgetForm from './components/BudgetForm';
+
 export default function App() {
   return (
     <>
@@ -5,7 +7,9 @@ export default function App() {
         <h1 className='text-4xl text-white text-center font-black uppercase'>Planificador de gastos</h1>
       </header>
 
-      <section className='max-w-3xl mx-auto bg-black shadow-lg rounded-lg mt-10 p-10'></section>
+      <section className='max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-10 p-10'>
+        <BudgetForm />
+      </section>
     </>
   );
 }
